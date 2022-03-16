@@ -1,6 +1,6 @@
 # E-commerce
 
-  This is a basic e-commerce website for future work.
+  This is a basic E-commerce website for future work.
   
 # Steps-to-run :
 
