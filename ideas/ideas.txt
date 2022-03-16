@@ -1,6 +1,8 @@
 
 				--merch--
 
+greeting for new users
+
 carousel
 
 buying only
