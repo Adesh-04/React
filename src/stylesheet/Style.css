@@ -1,2 +1,15 @@
+.NavHeader{
+    display: flex;
+}
 
-/* dfdfdfd */
+
+
+.HeaderButton{
+    margin-right: 0.5rem;
+    border: none;
+    background: inherit;
+}
+
+.HeaderButton:hover{
+    color: black;
+}
