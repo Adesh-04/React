@@ -1,8 +1,10 @@
+.App{
+    min-height: 100vh;
+}
+
 .NavHeader{
     display: flex;
 }
-
-
 
 .HeaderButton{
     margin-right: 0.5rem;
@@ -11,5 +13,6 @@
 }
 
 .HeaderButton:hover{
-    color: black;
+    filter: brightness(90%)  !important ;
+    border-bottom: 2px solid #0dcaf0;
 }

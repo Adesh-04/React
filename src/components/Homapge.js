@@ -2,6 +2,7 @@ import React from 'react';
 import logo from  '../images/logo.jpg';
 import Astha from '../images/Astha.jpg';
 import '../stylesheet/Style.css'
+import { Dropdown, NavDropdown, Container, Nav, Navbar } from 'react-bootstrap';
 
 export const Header =()=>{
 
@@ -13,12 +14,22 @@ export const Header =()=>{
                     <div className='col-md-3 '>
                         <img className='HeaderLogo' src={logo} width='100' alt='*/logo'/>
                     </div>
-                    <div className='col-md-7 border pt-3 text-end '>
-                        <button className='HeaderButton text-info'>Products v</button>
-                        <button className='HeaderButton text-danger'>Cart v</button>
-                        <button className='HeaderButton text-success'>See More v</button>
-                        <button className='HeaderButton text-primary'>Know More v</button>
-                        <button className='HeaderButton text-warning'>Sales v</button>
+                    <div className='col-md-7 dropdown border pt-3 text-end '>
+                        <button className='HeaderButton dropdown-toggle text-info' id='productId' type='button' data-toggle='dropdown'>Products</button>
+                        <button className='HeaderButton text-danger'>Cart</button>
+                        <button className='HeaderButton text-success'>See More</button>
+                        <button className='HeaderButton text-primary'>Know More</button>
+                        <button className='HeaderButton text-warning'>Sales</button>
+
+                        <div className='dropdown-menu' aria-labelledby='productId'>
+                            <ul>
+                                <li className='dropdown-item'>firts</li>
+                                <li className='dropdown-item'>firts</li>
+                                <li className='dropdown-item'>firts</li>
+                            </ul>
+                        </div>
+
+
                     </div>
                     <div className='col-md-2 pt-3 text-center'>
                         <button className='HeaderButton text-info'>Login</button>
@@ -34,13 +45,17 @@ export const Header =()=>{
                         <img src={Astha} width='990' alt='*/Astha' />
                     </div>
                     <div className='col-md-2 '>
-                        <p>drop</p>
+                        
+                     
+                            
                     </div>
                 </div>
 
             
 
             </div>
+
+            
         </div>
     )
 }
