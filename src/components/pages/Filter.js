@@ -3,14 +3,17 @@ import { Button, Form, Stack, ButtonGroup, Container, DropdownButton, Row, Col, 
 import DropdownItem from 'react-bootstrap/esm/DropdownItem'
 
 export const Info = () => {
+  var msymbol = "\u2642";
+  var fsymbol = "\u2640";
+  var whitespace = "\u0020";
   return (
     <Container className="text-center mt-5">
         <h1>Whamazon</h1><br/>
         <p><b>Tell us more about yourself</b></p><br/>
         <span>Who do you shop for?</span><br/>
 
-        <Button className="m-3" variant="primary">Woman</Button>
-        <Button className="m-3" variant="primary">Man</Button><br/>
+        <Button className="m-3" variant="primary">Woman{fsymbol}</Button>
+        <Button className="m-3" variant="primary">Man   {msymbol}</Button><br/>
 
         <span>How Old are you?</span><br/>
         <DropdownButton className="mt-3" variant="primary" title="Select ...">
