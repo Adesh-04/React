@@ -1,0 +1,23 @@
+.App{
+    min-height: 100vh;
+}
+
+.NavHeader{
+    display: flex;
+}
+
+.HeaderButton{
+    margin-right: 0.5rem;
+    border: none;
+    background: inherit;
+}
+
+.HeaderButton:hover{
+    filter: brightness(90%)  !important ;
+    border-bottom: 2px solid #0dcaf0;
+}
+
+.filter-button{
+    padding: 1rem;
+    min-width:5rem;
+}

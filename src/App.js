@@ -1,9 +1,26 @@
+import React from 'react'
+import { Route, Router, Routes } from 'react-router-dom';
+import { Header, Home } from './components/pages/Homepage';
+import { Error } from './components/pages/ErrorPage';
+import { Info, FilterPage } from './components/pages/Filter';
 import './stylesheet/Style.css';
 
-function App() {
+
+const App =()=> {
   return (
-    <div className="App">
-     
+    <div className="App bg-light">
+    
+    
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/info" element={<Info/>} />
+        <Route path="/filter" element={<FilterPage/>} />
+        <Route path="*" element={<Error/>} />
+      </Routes>
+    
+
+      {/* <Header/> */}
     </div>
   );
 }
