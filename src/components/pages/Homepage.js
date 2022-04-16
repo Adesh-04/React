@@ -7,13 +7,12 @@ import DropdownItem from 'react-bootstrap/esm/DropdownItem';
 
 export const Header =()=>{
 
-
     return(
         <Container fluid>
             <Row>
                 <Navbar bg="dark" variant="dark">
                     <Container fluid>
-                        <Navbar.Brand href="/" style={{'font-size': '25px'}}>
+                        <Navbar.Brand href="/" style={{'fontSize': '25px'}}>
                             Whamazon
                         </Navbar.Brand>
 
@@ -32,7 +31,7 @@ export const Header =()=>{
                         <Nav className="ms-auto" >
                             <DropdownButton variant="dark" title="Sign Up">
                                 <DropdownItem href="/login"> Login </DropdownItem>
-                                <DropdownItem href="/signup"> Sign Up </DropdownItem>
+                                <Nav.Link href="/signup" ><DropdownItem href="/signup"> Sign Up </DropdownItem></Nav.Link>
                             </DropdownButton>
                         </Nav>
 

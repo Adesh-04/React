@@ -13,7 +13,7 @@ export const Info = () => {
         <span>Who do you shop for?</span><br/>
 
         <Button className="m-3" variant="primary">Woman{fsymbol}</Button>
-        <Button className="m-3" variant="primary">Man   {msymbol}</Button><br/>
+        <Button className="m-3" variant="primary">Man  {msymbol}</Button><br/>
 
         <span>How Old are you?</span><br/>
         <DropdownButton className="mt-3" variant="primary" title="Select ...">
