@@ -1,5 +1,6 @@
 .App{
     min-height: 100vh;
+    overflow-y:  hidden;
 }
 
 .NavHeader{
@@ -17,8 +18,55 @@
     border-bottom: 2px solid #0dcaf0;
 }
 
-.filter-button{
+.filter-button-dark{
+    color: #212529;
+    border-color: #212529;
     padding: 1rem;
     min-width:5rem;
 }
 
+.filter-button-dark:hover {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.filter-button-dark:focus{
+  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+  background-color: #212529;
+  color: #fff;
+
+}
+
+.filter-button-danger{
+    color: #dc3545;
+    border-color: #dc3545;
+    padding: 1rem;
+    min-width:5rem;
+}
+
+.filter-button-danger:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.filter-button-danger:focus{
+  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+  background-color: #dc3545;
+  color: #fff;
+
+}
+
+.bg-lightgrey{
+    background-color: #ced4da;
+}
+
+.border-right{
+    border-right: 2px solid lightgrey;
+}
+
+.filter-slider{
+    width: 100%;
+    max-width: 50%;
+}

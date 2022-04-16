@@ -13,7 +13,7 @@ export const Header =()=>{
             <Row>
                 <Navbar bg="dark" variant="dark">
                     <Container fluid>
-                        <Navbar.Brand href="/" style={{'font-size': '25px'}}>
+                        <Navbar.Brand href="/" style={{'fontSize': '25px'}}>
                             Whamazon
                         </Navbar.Brand>
 
