@@ -5,6 +5,7 @@ import { Error } from './components/pages/ErrorPage';
 import { Info, FilterPage } from './components/pages/Filter';
 import { Signup } from './components/pages/Forms';
 import { Explore } from './components/pages/ProductPage';
+import { WishList } from './components/pages/Wishlist';
 import './stylesheet/Style.css';
 
 
@@ -20,11 +21,12 @@ const App =()=> {
         <Route path="/filter" element={<FilterPage/>} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/explore" element={<Explore/>} />
+        <Route path="/wish" element={<WishList/>} />
         <Route path="*" element={<Error/>} />
       </Routes>
     
 
-      {/* <Header/> */}
+      
     </div>
   );
 }

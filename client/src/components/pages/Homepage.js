@@ -18,14 +18,14 @@ export const Header =()=>{
 
                         <Stack className="ms-auto" direction={'horizontal'} gap="5">
                             <DropdownButton variant="dark" title="Products">
-                                <DropdownItem href="/info">Kids</DropdownItem>
-                                <DropdownItem href="/info">Adults</DropdownItem>
-                                <DropdownItem href="/filter">Filter</DropdownItem>
+                                <DropdownItem href="/info"> Kids </DropdownItem> 
+                                <DropdownItem href="/info"> Adults </DropdownItem>
+                                <DropdownItem href="/filter"> Filter </DropdownItem> 
                             </DropdownButton>
                             <Nav.Link className="text-light" href="/explore" >Explore</Nav.Link>
                             <Nav.Link className="text-light" href="/cart" >Cart</Nav.Link>
                             <Nav.Link className="text-light" href="/wish" >Wishlist</Nav.Link>
-                            <Nav.Link className="text-light" href="/live" >Live Connect</Nav.Link>
+                            <Nav.Link className="text-light" href="/live" >Live Connect <sup>Alpha</sup></Nav.Link>
                         </Stack>
 
                         <Nav className="ms-auto" >

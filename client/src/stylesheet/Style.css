@@ -58,8 +58,8 @@
 
 }
 
-.bg-lightgrey{
-    background-color: #ced4da;
+.bg-lavender{
+    background-color: lavender;
 }
 
 .border-right{
@@ -69,4 +69,40 @@
 .filter-slider{
     width: 100%;
     max-width: 50%;
+}
+
+.table {
+    margin-top: 1em;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 0.9em;
+    min-width:400px;
+    padding:0;
+    border-radius: 0.5em;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tableHead > tr {
+    cursor:default;
+    background-color: rgb(24, 179, 89);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.tableHead > tr > th , .tableBody > tr > td{
+    padding: 1em 1.25em;
+}
+
+.tableBody > tr {
+    border-bottom: 1px solid lightgrey;
+}
+
+.tableBody > tr:nth-of-type(even) {
+    background-color: rgb(181, 223, 187);
+}
+
+.tableBody > tr:last-of-type {
+    border-bottom: 2px solid rgb(24, 179, 89) ;
 }
